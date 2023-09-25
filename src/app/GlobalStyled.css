@@ -53,5 +53,11 @@ button{
     font-weight: 700;
     text-transform: capitalize;
     cursor: pointer;
+    transition: all 1s ease-in;
 }
 
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(76, 127, 110);
+    transition: all 1s ease-in;
+}
